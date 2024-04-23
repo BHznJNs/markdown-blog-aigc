@@ -1,0 +1,60 @@
+@import url(@blog/src/styles/color.css);
+@import url(@blog/src/styles/article/index.css);
+@import url(./shadow.css);
+@import url(../../../dist/libs/highlight-es/github-dark.css);
+@import url(../../../dist/libs/frappe-gantt/frappe-gantt.min.css);
+@import url(../../../dist/libs/katex/katex.min.css);
+@import url(../../../dist/libs/railroad-diagrams/railroad.css);
+
+body {
+    --text-font:
+    /* en */ -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Ubuntu,Helvetica Neue,Helvetica,Arial,
+    /* zh */ PingFang SC,Hiragino Sans GB,Microsoft YaHei UI,Microsoft YaHei,Source Han Sans CN,sans-serif;
+    --code-font: JetBrains Mono, Fira Code,
+        Menlo, Monaco,
+        Consolas, monospace;
+
+    --page-horizonal-padding: 10vw;
+    margin: 0;
+    background-color: var(--allpage-bg-color);
+    font-family: var(--text-font);
+    transition: background .6s,
+                color .3s;
+}
+
+body {
+    --error-color: #E53935;
+}
+body.dark {
+    --error-color: #E57373;
+}
+
+@media screen and (max-width: 767px) {
+    /* Mobile phone style */
+    body {
+        --page-horizonal-padding: 1.6rem;
+    }
+}
+@media screen and (min-width: 1024px) {
+    /* PC style */
+    :root {
+        font-size: 17px;
+    }
+    body {
+        --page-horizonal-padding: 16vw;
+    }
+}
+
+#app {
+    display: grid;
+    grid-template-areas: 
+        "nav  nav"
+        "side main";
+    grid-template-rows: auto 1fr;
+    grid-template-columns: auto 3fr;
+    height: 100vh;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+    display: none;
+}

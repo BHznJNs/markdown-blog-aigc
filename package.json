@@ -1,0 +1,28 @@
+{
+  "name": "markdown-blog-dashboard",
+  "version": "0.0.0",
+  "type": "module",
+  "workspaces": [
+    "blog"
+  ],
+  "scripts": {
+    "start": "electron ./main/index.js",
+    "dev": "vite --config renderer/vite.config.js",
+    "build": "vite --config renderer/vite.config.js build",
+    "preview": "vite --config renderer/vite.config.js preview"
+  },
+  "dependencies": {
+    "@mdui/icons": "^1.0.2",
+    "electron": "^29.1.5",
+    "monaco-editor": "^0.47.0",
+    "trash": "^8.1.1",
+    "vue": "^3.4.21",
+    "vue-i18n": "^9.10.2",
+    "vue-router": "^4.3.0"
+  },
+  "devDependencies": {
+    "@intlify/unplugin-vue-i18n": "^4.0.0",
+    "@vitejs/plugin-vue": "^5.0.4",
+    "vite": "^5.2.0"
+  }
+}

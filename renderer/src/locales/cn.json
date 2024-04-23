@@ -1,0 +1,48 @@
+{
+    "nav": {
+        "title": "控制台",
+        "search": "搜索",
+        "lightmode": "日间模式",
+        "darkmode": "黑暗模式"
+    },
+    "sideBar": {
+        "overview": "概览",
+        "writing": "写作",
+        "release": "发布",
+        "setting": "设置"
+    },
+    "main": {
+        "overview": {
+            "daysUsed": "至今共使用",
+            "dayUnit": "天",
+            "blogCount": "共创建文章",
+            "blogUnit": "篇",
+            "wordCount": "共输出字数",
+            "wordUnit": " 字"
+        },
+        "writing": {
+            "edit": "编辑",
+            "preview": "预览",
+            "files": "文件",
+            "emptyPreview": "暂无内容",
+            "fileTypes": {
+                "folder": "文件夹",
+                "markdown": "MD 文件",
+                "image": "图像文件",
+                "audio": "音频文件",
+                "video": "视频文件",
+                "other": "其它文件"
+            }
+        }
+    },
+    "dialog": {
+        "folderAddTitle": "添加文件夹",
+        "folderNamePrompt": "文件夹名称",
+        "articleAddTitle": "添加文章",
+        "articleNamePrompt": "文章名称",
+        "itemRenameTitle": "重命名",
+        "itemNamePrompt": "新名称",
+        "confirm": "确定",
+        "cancel": "取消"
+    }
+}

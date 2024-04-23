@@ -1,0 +1,45 @@
+{
+    "nav": {
+        "title": "Dashboard",
+        "search": "Search",
+        "lightmode": "Light Mode",
+        "darkmode": "Dark Mode"
+    },
+    "sideBar": {
+        "overview": "Overview",
+        "writing": "Writing",
+        "release": "Release",
+        "setting": "Setting"
+    },
+    "main": {
+        "overview": {
+            "daysUsed": "Used so far",
+            "dayUnit": "Days",
+            "blogCount": "Created in total",
+            "blogUnit": "Blogs",
+            "wordCount": "Words outputed",
+            "wordUnit": ""
+        },
+        "writing": {
+            "edit": "Edit",
+            "preview": "Preview",
+            "files": "Files",
+            "emptyPreview": "Nothing.",
+            "fileTypes": {
+                "folder": "Folder",
+                "markdown": "MD File",
+                "image": "Image File",
+                "audio": "Autio File",
+                "video": "Video File",
+                "other": "Other"
+            }
+        }
+    },
+    "dialog": {
+        "articleAddTitle": "New Article",
+        "articleRenameTitle": "Rename Article",
+        "articleNamePrompt": "Article name",
+        "confirm": "Confirm",
+        "cancel": "Cancel"
+    }
+}
